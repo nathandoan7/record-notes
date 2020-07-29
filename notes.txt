@@ -1,0 +1,32 @@
+view.php
+
+
+
+<select>  [get records]
+
+
+--------------------
+
+
+RECORDS
+
+
+
+
+---------------------
+
+
+logic:
+
+if category='' then select and button
+
+else select and button and giant table
+
+
+
+
+
+notes: to-do has only 3 fields.  reading has 4, or more!  I will need to create the tables dynamically, putting the titles of each field atop each column.  can't be too difficult.
+
+But when you go to create a new book...you will need a special subroutine to handle that, methinks.  Enter title and author.  They will be bound together.  Perhaps it belongs on its own table!  I have no clue.  Just build it super simple to start.  have only three fields.
+id  date  note.  same for both tables.
